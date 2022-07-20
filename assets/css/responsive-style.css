@@ -1,0 +1,155 @@
+
+
+
+@media (max-width:900px) {
+
+
+    html{
+        font-size: 55%;
+    }
+
+    .container-{
+        padding: 6rem 2rem;
+    }
+
+
+    header .nav-bar{
+        background-color: #fff;
+        width: 100%;
+        position: absolute;
+        left: 0;
+        top: 51px;
+        z-index: 9999;
+        padding: 5rem 0;
+        transform-origin: top;
+        transform: scaleY(0);
+        opacity: 0;
+        transition: all .3s cubic-bezier(.38,.76,0,1.41);
+    }
+
+    header .nav-show-hide{
+        transform: scaleY(1);
+        opacity: 1;
+    }
+
+    .header-bg{
+        background-color: var(--color);
+    }
+
+    header .nav-bar ul{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    header .nav-bar ul li a{
+        display: inline-block;
+        color: #000;
+        margin: 1.3rem 0;
+        font-size: 2rem;
+    }
+
+    .bars{
+        display: block;
+    }
+
+    .bars span{
+        margin-bottom: 6px;
+    }
+
+    .bars span:last-child{
+        margin-bottom: 0;
+    }
+
+    .home .banner{
+        font-size: 4rem;
+    }
+    .home .slogan{
+        font-size: 1.7rem;
+    }
+
+    .about .row .content h3{
+        font-size: 3rem;
+    }
+    
+    .about .row .content p{
+        font-size: 1.7rem;
+    }
+
+    .services .row .content h3{
+        font-size: 3rem;
+    }
+    
+    .services .row .content p{
+        font-size: 1.7rem;
+    }
+
+
+
+}
+
+
+@media (max-width:768px){
+
+
+    .container-{
+        padding: 6rem 1rem;
+    }
+
+    .about .row{
+        flex-direction: column-reverse;
+    }
+
+    .about .row .content{
+        margin-top: 3rem;
+    }
+
+    .services .row-reverse{
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+        flex-direction: column-reverse;
+    }
+
+    .team .row .card{
+        margin-bottom: 7rem;
+    }
+
+    footer .row .icons a{
+        margin: 0 1rem;
+        margin-top: 2rem;
+    
+    }
+
+    
+
+}
+
+
+@media (max-width:553px){
+
+    html{
+        font-size: 50%;
+    }
+
+
+    .container-{
+        padding: 6rem .5rem;
+    }
+
+    header .nav-bar{
+        top: 46px;
+    }
+    .faq{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .faq .row .row .accordion .accordion-header{
+        margin: .7rem 0;
+    }
+
+
+}
+
+
+
