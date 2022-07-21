@@ -39,7 +39,5 @@ $(document).ready(function () {
         speedAsDuration: true
     });
 
-
-
-
+    new WOW().init();
 });
